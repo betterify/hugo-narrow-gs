@@ -1,7 +1,7 @@
 ---
 title: "短代码示例"
 date: 2025-12-26
-draft: false
+draft: true
 description: "Hugo Narrow 主题可用的短代码"
 tags: ["shortcode"]
 categories: ["shortcode"]

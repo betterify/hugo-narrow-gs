@@ -16,7 +16,7 @@
               class="h-full w-full object-cover" />
           </a>
         {{ else }}
-          <!-- 默认 Logo：使用站点标题首字母 -->
+          <!-- Default Logo：Use the first letter of the site title -->
           <a
             href="{{ site.Home.RelPermalink }}"
             class="bg-primary text-primary-foreground hover:bg-primary/90 flex h-10 w-10 items-center justify-center rounded-full text-lg font-bold transition-transform duration-200 hover:scale-105"
@@ -26,7 +26,7 @@
         {{ end }}
       </div>
 
-      <!-- 中间：桌面端导航 -->
+      <!-- Middle: Desktop Navigation -->
       <nav class="mx-8 flex flex-1 items-center justify-center min-w-0">
         <div class="flex items-center space-x-1 flex-wrap justify-center">
           {{ $currentPage := . }}
@@ -63,33 +63,33 @@
         </div>
       </nav>
 
-      <!-- 右侧：桌面端控制区域 -->
+      <!-- Right side: Desktop control area -->
       <div class="flex items-center space-x-2">
-        <!-- 语言切换按钮 -->
+        <!-- Language switch button -->
         {{ partial "ui/language-switcher.html" . }}
 
-        <!-- 主题风格切换按钮 -->
+        <!-- Theme style switch button -->
         {{ partial "ui/theme-switcher.html" . }}
 
-        <!-- 明暗模式切换按钮 -->
+        <!-- Light and dark mode switch button -->
         {{ partial "ui/dark-mode-switcher.html" . }}
       </div>
     </div>
 
-    <!-- 移动端布局 -->
+    <!-- Mobile layout -->
     <div class="flex w-full items-center justify-between md:hidden">
-      <!-- 左侧：移动端菜单按钮 -->
+      <!-- Left side: Mobile menu button -->
       {{ partial "navigation/mobile-menu-toggle.html" . }}
 
-      <!-- 右侧：移动端控制区域 -->
+      <!-- Right side: Mobile control area -->
       <div class="flex items-center space-x-2">
-        <!-- 语言切换按钮 -->
+        <!-- Language switch button -->
         {{ partial "ui/language-switcher.html" . }}
 
-        <!-- 主题风格切换按钮 -->
+        <!-- Theme style switch button -->
         {{ partial "ui/theme-switcher.html" . }}
 
-        <!-- 明暗模式切换按钮 -->
+        <!-- Light and dark mode switch button -->
         {{ partial "ui/dark-mode-switcher.html" . }}
       </div>
     </div>

@@ -80,3 +80,6 @@ What is true love?
 ## Gallery
 ![Canva Design](images/valentine-day.webp "Created by Avadhoot Dandekar")
 ![Canva Design](images/what-is-love.webp "Created by Avadhoot Dandekar")
+
+## Follow on YouTube
+{{< button text="YouTube" url="https://www.youtube.com/c/AvadhootDandekar" icon="youtube" size="lg" target="_blank" />}}

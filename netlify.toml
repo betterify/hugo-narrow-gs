@@ -1,0 +1,5 @@
+[[redirects]]
+from = "http*://*avadhoot.pages.dev/*"
+to = "https://news.avadhoot.me/"
+status = 301
+force = true

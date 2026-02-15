@@ -71,6 +71,12 @@ I am sharing here one of my poems, tittled, "What is Love?."
 > [!NOTE]
 > The above poem was written by me on 16th of March 2025.
 
+## Quote
+
+What is true love?
+
+> Love is Divine. It is transformational. It is body to body. It is mind to mind. It is heart to heart. It is soul to soul. It is physical. It is intellectual. It is emotional. And it is spiritual. Love is a change agent.
+
 ## Gallery
 ![Canva Design](images/valentine-day.webp "Created by Avadhoot Dandekar")
 ![Canva Design](images/what-is-love.webp "Created by Avadhoot Dandekar")

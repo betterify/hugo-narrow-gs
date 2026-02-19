@@ -1,7 +1,7 @@
 ---
 title: "Hugo Narrow 主题"
 date: 2024-01-15T10:00:00+08:00
-draft: false
+draft: true
 slug: hugo-narrow-theme
 description: "基于 Tailwind CSS 4.0 构建的现代、简洁、极简 Hugo 主题"
 summary: "基于 TailwindCSS 4 构建的现代 Hugo 主题，支持多种配色方案、暗色模式和响应式设计。"

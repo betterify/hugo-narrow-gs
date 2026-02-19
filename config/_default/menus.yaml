@@ -56,7 +56,7 @@ social:
     params:
       icon: twitter
   - name: LinkedIn
-    url: https://linkedin.com/in/username
+    url: https://linkedin.com/in/avadhootdandekar
     weight: 30
     params:
       icon: linkedin

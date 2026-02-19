@@ -1,7 +1,7 @@
 ---
 title: "Hugo - 世界上最快的网站构建框架"
 date: 2024-02-20T14:30:00+08:00
-draft: false
+draft: true
 slug: hugo-framework
 description: "用 Go 语言编写的世界上最快的网站构建框架"
 summary: "使用 Go 构建的快速灵活的静态站点生成器，为全球数千个网站提供支持。"

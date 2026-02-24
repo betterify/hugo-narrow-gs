@@ -22,6 +22,7 @@ tech_stack:
   - HTML
   - CSS
   - JavaScript
+  - Text Editor
   - Markdown
 status: "completed"
 lightbox:
@@ -34,10 +35,12 @@ justified_gallery:
 
 This is my personal Blog and Vlog. I am using Blogger to share my thoughts and experiences. Blogger is the most popular, free, and simplest blogging framework maintained by Google.
 
-## Blogger
+## Blogger.Com
+Weblog publishing tool from Google, for sharing text, photos and video. Blogger is the most popular, free, No-Code, and simplest blogging framework maintained by Google.
 
 ## Gallery
 ![Canva Design](avadhoot-me.webp "Created by Avadhoot Dandekar")
+![Canva Design](avadhoot-me2.webp "Created by Avadhoot Dandekar")
 
 ## Follow on YouTube
 {{< button text="YouTube" url="https://www.youtube.com/c/AvadhootDandekar" icon="youtube" size="lg" target="_blank" />}}

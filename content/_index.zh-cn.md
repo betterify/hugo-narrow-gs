@@ -1,6 +1,7 @@
 ---
 title: "首页"
 date: 2025-12-31
+draft: true
 author:
   name: "Avadhoot Dandekar"
   title: "简洁的 Hugo 主题"

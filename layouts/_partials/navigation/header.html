@@ -81,6 +81,29 @@
       <!-- Left side: Mobile menu button -->
       {{ partial "navigation/mobile-menu-toggle.html" . }}
 
+      <!-- Center: Logo (same as desktop) -->
+      <div class="flex-1 flex justify-center">
+        {{ if ne site.Params.header.logo.image "" }}
+          <a
+            href="{{ if site.Params.header.logo.link }}{{ site.Params.header.logo.link | relLangURL }}{{ else }}{{ site.Home.RelPermalink }}{{ end }}"
+            class="flex h-10 w-10 items-center justify-center overflow-hidden rounded-full transition-transform duration-200 hover:scale-105"
+            aria-label="{{ site.Title }}">
+            <img
+              src="{{ site.Params.header.logo.image | relURL }}"
+              alt="{{ site.Title }}"
+              class="h-full w-full object-cover" />
+          </a>
+        {{ else }}
+          <!-- Default Logo：Use the first letter of the site title -->
+          <a
+            href="{{ site.Home.RelPermalink }}"
+            class="bg-primary text-primary-foreground hover:bg-primary/90 flex h-10 w-10 items-center justify-center rounded-full text-lg font-bold transition-transform duration-200 hover:scale-105"
+            aria-label="{{ site.Title }}">
+            {{ substr site.Title 0 1 | upper }}
+          </a>
+        {{ end }}
+      </div>
+
       <!-- Right side: Mobile control area -->
       <div class="flex items-center space-x-2">
         <!-- Language switch button -->

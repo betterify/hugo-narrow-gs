@@ -3,5 +3,16 @@
     "env": {
       "HUGO_VERSION": "0.146.0"
     }
-  }
+  },
+
+  "redirects": [
+    { 
+      "source": "https://avadhoot.vercel.app/",
+      "destination": "https://go.avadhoot.me/", 
+      "permanent": true
+    }
+  ]
+
 }
+
+

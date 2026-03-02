@@ -9,7 +9,7 @@
     { 
       "source": "https://avadhoot.vercel.app/",
       "destination": "https://go.avadhoot.me/", 
-      "permanent": true
+      "permanent": false
     }
   ]
 
